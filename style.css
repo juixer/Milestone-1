@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}.container{
+    background-color: rgba(100, 100, 100, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.box2{
+    display: flex;
+}
+.box{
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+    font-family:monospace;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: lime;
+    transition: 1s;
+}
