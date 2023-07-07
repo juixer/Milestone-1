@@ -97,3 +97,47 @@ button:hover{
     color: lime;
     text-decoration: underline;
 }
+
+.Search_section{
+    height: 100vh;
+    background: linear-gradient(66deg, #459980 0%, rgb(104, 85, 150) 100%);
+}
+.Search_section h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+    background: rgba(25, 28, 75, 0.5);
+
+}
+.search_div{
+    background: rgba(25, 28, 75, 0.5);
+}
+.search_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.search_box label{
+    font-size: 30px;
+    color: white ;
+}
+.search_box input[type=search]{
+    height: 40px;
+    width: 350px;
+    border: none;
+    outline: none;
+    padding-left: 3px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.search_box input[type=submit]{
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.search_image_div{
+    background: rgba(25, 28, 75, 0.5);
+}
