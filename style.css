@@ -140,4 +140,45 @@ button:hover{
 }
 .search_image_div{
     background: rgba(25, 28, 75, 0.5);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_image img{
+    box-shadow: 5px 5px 10px #8c9945;
+}
+.search_image a{
+    color: white;
+    text-decoration: none;
+}
+.search_image a:hover{
+    color: lime;
+    text-decoration: underline;
+}
+
+.feedback_section{
+    height: 100vh;
+    background: linear-gradient(66deg, #624599 0%, rgb(85, 148, 150) 100%);
+
+}
+.feedback_section h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+    background: rgba(25, 28, 75, 0.5);
+    color: white;
+    letter-spacing: 5px;
+}
+.feedback_div{
+    background: rgba(25, 28, 75, 0.5);
+    height: 100%;
+}
+.feedback_form{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
